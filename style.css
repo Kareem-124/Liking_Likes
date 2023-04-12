@@ -112,6 +112,3 @@ body{
     padding: 1rem;
     font-size: x-large;
 }
-.feedbackContainer:nth-child(2) .numberOfLikes{
-color: red;
-}
