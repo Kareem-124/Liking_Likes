@@ -29,14 +29,40 @@ body{
     width: 100%;
     text-align: center;
     margin-bottom: 2rem;
+    padding: 1rem;
+
 }
+
 .sideNave{
-    width: 30%;
-    height: 30rem;
+    width: 25%;
+    height: 25rem;
     border: 5px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1rem;
+}
+.avatarIcon{
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+}
+.addAvatar{
+    font-size: 1.3rem;
+    margin-top: 1rem;
+}
+.sideNave h2{
+    margin-top: 2rem;
+    font-size: 2.2rem;
+}
+.avatarIcon img{
+    width: 9rem;
+    height: 9rem;
 }
 .mainFeedbackContainer{
-    width: 65%;
+    width: 70%;
     height: 50rem;
     
 }
@@ -58,11 +84,15 @@ body{
     font-weight: 900;
 
 }
+.feedBackName{
+    width: 20rem;
+}
 .numberOfLikes{
-    margin-left: 15rem;
+    margin-left: 1rem;
+    width: 3rem;
 }
 .upperFeedbackContainer span{
-    margin-right: 5rem;
+    margin-right: 9rem;
 }
 .likeButton{
     width: 5rem;
